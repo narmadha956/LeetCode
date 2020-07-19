@@ -1,0 +1,25 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙŸã©8ßÎÓï¢.
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ä·Ã±
+r	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¨ãÃøÿÿÿÿ8¨Ä©ï¢.
+Y
+java:S1854I"7Remove this useless assignment to local variable "reu".(æÌÇ¨ÿÿÿÿÿ8ÄÕ’ã£.
+Z	java:S1066"9Replace this use of System.out or System.err by a logger.(Çµß§úÿÿÿÿ8Ëİğ¢.
+U	java:S1067"9Replace this use of System.out or System.err by a logger.(È˜˜­8¥Ôğ¢.
+J
+java:S1481I"(Remove this unused "reu" local variable.(æÌÇ¨ÿÿÿÿÿ8ÀÇ“ã£.
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(Š„ŠŒøÿÿÿÿ8‡Óï¢.
+r	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûéî§ÿÿÿÿÿ8¹èºï¢.
+Z
+java:S1854G"8Remove this useless assignment to local variable "aasd".(ç¸Ã¸øÿÿÿÿ8Û¶çŒ¤.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëäºıÿÿÿÿ8ÜˆÑï¢.
+T	java:S106M"9Replace this use of System.out or System.err by a logger.(Ø¯>8áëå¸£.
+K
+java:S1481G")Remove this unused "aasd" local variable.(ç¸Ã¸øÿÿÿÿ8Û¶çŒ¤.
+T	java:S1068"9Replace this use of System.out or System.err by a logger.(ÙÙíT8²ğ¢.
+Z	java:S106L"9Replace this use of System.out or System.err by a logger.(·³üúüÿÿÿÿ8Í å¸£.
+0
+java:S1220""Move this file to a named package.
+h
+java:S1192
+"FDefine a constant instead of duplicating this literal "price" 4 times.(°ÛßÏùÿÿÿÿ8ÜˆÑï¢.

@@ -1,0 +1,12 @@
+
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8ØŸ®£ .
+0
+java:S1220""Move this file to a named package.
+>
+java:S1116"Remove this empty statement.(Åñ­õþÿÿÿÿ8¡³º£ .
+{
+java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(Æâù«üÿÿÿÿ8Òþ®£ .
+{
+java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(­³ß•ýÿÿÿÿ8ÎÁ±£ .
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¹ûô³8©ý¹£ .

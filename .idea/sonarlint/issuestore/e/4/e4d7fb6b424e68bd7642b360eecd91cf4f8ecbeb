@@ -1,0 +1,10 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(­²˜î8ºÅØ¢.
+0
+java:S1220""Move this file to a named package.
+^
+java:S11263"AReplace this if-then-else statement by a single return statement.(ó·‰´8 »ú¢.
+^
+java:S1126,"AReplace this if-then-else statement by a single return statement.(·Ûôí8ÎÛº›¢.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ï ˜©øÿÿÿÿ8¥»ñš¢.
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(æ–İ€ÿÿÿÿÿ8±ğá›¢.

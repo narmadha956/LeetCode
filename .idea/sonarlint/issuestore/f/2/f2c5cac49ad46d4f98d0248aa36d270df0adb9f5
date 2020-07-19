@@ -1,0 +1,11 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ü«íë8Ò½½Ş¢.
+0
+java:S1220""Move this file to a named package.
+D
+java:S1940 ")Use the opposite operator ("!=") instead.(õúŒñùÿÿÿÿ
+V	java:S125
+"<This block of commented-out lines of code should be removed.(ş“íÚúÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(÷ºâÿÿÿÿÿÿ8‹ìÎŞ¢.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Äîµ‰8Ôù½Ş¢.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ãšİêùÿÿÿÿ8Ë£ÏŞ¢.
