@@ -1,12 +1,0 @@
-
-C
-java:S2185"&Remove this silly call to "Math.floor"(„é…ü8Ñ”²ˆµ.
-_
-java:S2184"BCast one of the operands of this division operation to a "double".(„é…ü8Þ¥Áˆµ.
-C
-java:S2185"&Remove this silly call to "Math.floor"(„é…ü8Þ¥Áˆµ.
-_
-java:S2184"BCast one of the operands of this division operation to a "double".(„é…ü8Ñ”²ˆµ.
-U	java:S1064"9Replace this use of System.out or System.err by a logger.(ÖÞØÂ8èÜìÚ´.
-0
-java:S1220""Move this file to a named package.
