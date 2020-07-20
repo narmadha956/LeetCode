@@ -27,33 +27,27 @@ public class RemoveKDigits {
 
     public static void main(String[] args)
     {
-
+        removeKdigits("1024",1);
     }
 
-    public int removeDigits(String num, int k)
-    {
-        num = "1432219";
-        k = 3;
-        int numI = Integer.parseInt(num);
-        int ans = 1;
-        //(int) Math.pow(10,num.length()-k);
-        char[] cc = num.toCharArray();
-        int allPos = cc.length-k;
-        TreeSet<Character> min = new TreeSet<Character>();
-        char c = 'a';
-        if(c==' ')
-        {
-
+    public static String removeKdigits(String num, int k) {
+        if (num.length() == k) {
+            return "0";
         }
-
-        for(int i=0;i<=allPos; i++)
-        {
-           for(int j=0;j<allPos;j++)
-           {
-
-           }
+        StringBuilder sb = new StringBuilder(num);
+        for (int j = 0; j < k; j ++) {
+            int i = 0;
+            while (i < sb.length() - 1 && sb.charAt(i) <= sb.charAt(i + 1)) {
+                i ++;
+            }
+            sb.delete(i, i + 1);
         }
-
+        int i = 0;
+        while (i < sb.length() - 1 && sb.charAt(i) == '0') {
+            i ++;
+        }
+        return sb.toString().substring(i);
+    }
 
 ///22229919  8 digits k = 4
 /*
@@ -82,7 +76,5 @@ public class RemoveKDigits {
 
 
 
-        return 0;
-    }
 
 }

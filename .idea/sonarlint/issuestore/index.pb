@@ -35,3 +35,13 @@ E
 src/SortedSquare.java,6/c/6ca2215114da3c35e5d409ba5be0dbae98e6d8e6
 F
 src/DuplicateZero.java,4/c/4c9a3b5d26dce14288a71320fa0ed86e07a4d9f8
+K
+src/InsertElementArray.java,f/8/f8656baab6b3d58cabe8d66fe49fac790e011352
+D
+src/DeleteArray.java,0/6/065b45ab30103d6b709ae7ea43e1f0a2761c168d
+T
+$src/RemoveDuplicatesSortedArray.java,3/3/333dae75febad1ee00a402a352850ad7e1e7ace8
+D
+src/SmallestInt.java,2/6/267d051ddd1b04969f0e5b627d4945395c9c6e1a
+B
+src/ValidWord.java,1/9/197d3693481327c5957130c19292183f9ad114e3

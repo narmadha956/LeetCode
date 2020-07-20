@@ -1,26 +1,7 @@
 
-S
-java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8Ì±¢¡.
-J	java:S108-")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ8·ƒ¢Œ´.
-J	java:S1084")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ8²ì¤¡.
-
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛÛ¯ø8ı°Í¡.
 J
-java:S1481&"(Remove this unused "ans" local variable.(íÍÃ©şÿÿÿÿ8Å«ä¡.
-D
-java:S1481*"(Remove this unused "min" local variable.(ôé¸G8ş‹Œ´.
-K
-java:S1481%")Remove this unused "numI" local variable.(‘À·îùÿÿÿÿ8…·Ò¡.
-b
-java:S1226#"@Introduce a new variable instead of reusing the parameter "num".(²¯ õùÿÿÿÿ8ÀÅà¡.
-u
-java:S2293*"YReplace the type specification in this constructor call with the diamond operator ("<>").(ôé¸G8ş‹Œ´.
-Z
-java:S1226$">Introduce a new variable instead of reusing the parameter "k".(“¾È8±½Ğ¡.
-]	java:S125'"<This block of commented-out lines of code should be removed.(ı”ù³şÿÿÿÿ8¨°œ¡.
+java:S1128".Remove this unused import 'java.util.TreeSet'.(½îB8Ù¸£À¶.
 0
 java:S1220""Move this file to a named package.
-Z
-java:S1854%"8Remove this useless assignment to local variable "numI".(‘À·îùÿÿÿÿ8…·Ò¡.
 S
-java:S1854*"7Remove this useless assignment to local variable "min".(ôé¸G8ş‹Œ´.
+java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8Ì±¢¡.
