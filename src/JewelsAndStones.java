@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
 /**
@@ -16,66 +19,38 @@ import java.util.*;
  */
 public class JewelsAndStones {
 
-    public static void main(String[] args) {
-        String J = "aA";
-        String S = "aAAbbbb";
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String T = br.readLine();
+        int testCase = Integer.parseInt(T);
+        for(int tc=0;tc<testCase;tc++)
+        {
+            String name = br.readLine();
 
-        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
-        int count = 0;
-        char[] j = J.toCharArray();
-        char[] s = S.toCharArray();
-        for (int i = 0; i < j.length; i++) {
-            map.put(j[i], 0);
-        }
-        int ans = 0;
+            char[] c = name.toCharArray();
 
-        for (int i = 0; i < s.length; i++) {
-            count = 0;
-            if (map.containsKey(s[i])) {
-                count = map.get(s[i]) + 1;
-                map.put(s[i], count);
+            LinkedHashMap<Character, Integer> results = new LinkedHashMap<Character,Integer>();
+
+            for(int i =0; i<c.length;i++)
+            {
+                if(results.containsKey(c[i]))
+                {
+                    results.put(c[i],results.get(c[i])+1);
+                }
+                else
+                    results.put(c[i],1);
+            }
+
+            for(char i : results.keySet())
+            {
+                System.out.print(i);
+                System.out.print(results.get(i));
+
             }
         }
-        for (char c : map.keySet()) {
-            ans = ans + map.get(c);
-        }
 
-        System.out.println(ans);
-
-    }
-
-    public int numJewelsInStones(String J, String S) {
-        Set<Character> set = new HashSet<>();
-        for (int i = 0; i < J.length(); i++) {
-            set.add(J.charAt(i));
-        }
-        int res = 0;
-        for (int i = 0; i < S.length(); i++) {
-            if (set.contains(S.charAt(i))) {
-                res++;
-            }
-        }
-        return res;
-    }
-
-    public enum TestData {
-
-        tocID("westmidlandsrailSeasons"),
-        railCard("urn:trainline:atoc:card:WHC;urn:trainline:atoc:card:HRC;urn:trainline:atoc:card:VLC"),
-        deliveryOptions("atocukfirstclasspost;atocukspecialdelivery;atocitsosmartactionlist");
-
-        private final String value;
-
-        TestData(String value) {
-            this.value = value;
-        }
-
-        public String getValue() {
-            return this.value;
-        }
-
-    }
 
 
 
+    }
 }
